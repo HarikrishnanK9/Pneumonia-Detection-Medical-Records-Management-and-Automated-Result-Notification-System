@@ -8,22 +8,22 @@ from tensorflow.keras.preprocessing import image
 import yagmail.error 
 
 # Loading the pneumonia detection model
-model = load_model("/home/harikrishnan/VSCode/OpenCV/X_RAY/pneumonia.h5")
+model = load_model("/home/harikrishnan/VSCode/OpenCV/X_RAY/pneumonia.py")
 
 # Database connection configuration
 db_config = {
-    'host': 'localhost',
-    'user': 'root',
+    'host': '#########',
+    'user': '######',
     'password': '##########',
-    'database': 'DL_Projects'
+    'database': '##########'
    
 }
 # Email configuration
 email_config = {
     'sender_email': '###########',
     'sender_password': '#######',
-    'smtp_server': 'smtp.gmail.com',
-    'smtp_port': 587,
+    'smtp_server': '##########',
+    'smtp_port': '#####',
     'sender_app_password':'##########'
 }
 # Function to predict pneumonia
